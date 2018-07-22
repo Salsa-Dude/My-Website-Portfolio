@@ -1,4 +1,5 @@
 
-body {
-  background: red;
-}
+@import "reset";
+@import "variables";
+@import "infoSection";
+@import "home";
