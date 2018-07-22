@@ -169,11 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\joe.jpg":"img\\joe.jpg","_css_loader":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"js\\index.js":[function(require,module,exports) {
-'use strict';
-
-require('../scss/main.scss');
-},{"../scss/main.scss":"scss\\main.scss"}],"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\img\\joe.jpg":"img\\joe.jpg","_css_loader":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -421,6 +417,5 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise.catch(onError);
 };
 },{"./bundle-url":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],0:[function(require,module,exports) {
-var b=require("..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-loader.js");b.load([["joe.0f7e9201.jpg","img\\joe.jpg"]]).then(function(){require("js\\index.js");});
+var b=require("..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-loader.js");b.load([["joe.0f7e9201.jpg","img\\joe.jpg"]]);
 },{}]},{},["..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js",0], null)
-//# sourceMappingURL=/js.03a59e91.map
