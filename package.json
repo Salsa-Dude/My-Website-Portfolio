@@ -1,0 +1,22 @@
+{
+  "name": "web-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salsa-Dude/My-Website-Portfolio.git"
+  },
+  "author": "Joseph Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salsa-Dude/My-Website-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Salsa-Dude/My-Website-Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
