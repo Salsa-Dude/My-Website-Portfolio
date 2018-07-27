@@ -4,7 +4,7 @@
   "description": "Website",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "compile:sass": "node-sass scss/main.scss dist/css/style.comp.css",
     "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
   },
   "author": "Joseph Arias",
