@@ -97,7 +97,7 @@
 
 .about-info {
   display: grid;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px; }
   .about-info .bio-image {
@@ -209,13 +209,14 @@ main {
         color: #eece1a;
         transition: all 0.5s ease-out; }
   main#home {
-    overflow: hidden; }
+    float: left; }
     main#home h1 {
       margin-top: 20vh; }
 
 .logo-box {
   width: 35%;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 60px; }
 
 .roundcontent {
   position: absolute;
@@ -284,13 +285,66 @@ main {
       width: 200px;
       height: 200px; }
     #about .about-info {
-      grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+      grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
       grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh;
-    font-size: 4rem; }
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    font-weight: 400; }
+    h1.lg-heading,
+    h2.lg-heading,
+    h3.lg-heading {
+      font-size: 4rem; }
+    h1.sm-heading,
+    h2.sm-heading,
+    h3.sm-heading {
+      margin-bottom: 2rem;
+      padding: 0.2rem 1rem;
+      background: rgba(255, 255, 255, 0.5); }
+  main {
+    display: block; }
+    main .icons {
+      margin-top: 1rem; }
+      main .icons a {
+        padding: 0.4rem; }
+        main .icons a:hover {
+          color: #eece1a;
+          transition: all 0.5s ease-out; }
+    main#home {
+      float: none; }
+      main#home h1 {
+        margin-top: 0; }
   #about h1 {
     margin-top: 10vh;
-    font-size: 4rem; } }
+    font-size: 4rem; }
+  .logo-box {
+    width: 20%;
+    display: block; }
+  .roundborder {
+    margin-top: 60px;
+    position: relative; }
+  .roundcontent {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border: 10px dashed #fff;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s; }
+  .roundborder {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%; }
+  .roundborder .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .text img {
+    width: 100%; } }
